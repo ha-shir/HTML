@@ -1,0 +1,191 @@
+header{
+    height: auto;
+    max-width: 100%;
+    margin-right: 300px;
+    
+}
+
+.p1{
+    float: right;
+    padding: 50px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.part1{
+    /* padding: 100px; */
+    background-color: brown;
+    display: flex;
+    
+    justify-content: space-around;
+}
+.para3{
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+    padding: 50px;
+
+}
+.part3{
+    background-image: url(pexels-kseniya-lapteva-93670191-9176096.jpg);
+    padding: 70px;
+    color: aliceblue;
+    text-align: center;
+
+}
+
+.part4{
+    display: flex;
+   /* padding: 50px; */
+  margin-left: 300px;
+
+}
+.part5{
+    padding: 50px;
+    background-color: brown;
+    text-align: center;
+    color: aliceblue;
+    
+}
+.part6{
+    text-align: center;
+}.para{
+    background-color: silver;
+    height: auto;
+    width: fit-content;
+    padding: 50px;
+    align-items: center;
+    margin-left: 400px;
+    
+}
+.profile{
+    padding: 50px;
+    align-items: center;
+    border-radius: 2px;
+    /* height: 100px; */
+    width: 10px;
+    margin-left: 650px;
+}
+.endpart{
+   background-color: grey;
+   padding: 40px;
+  justify-content: center;
+  text-align: center;
+}
+@media (max-width: 1024px) {
+    .part4 {
+        flex-direction: column;
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .para {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
+    .profile {
+        margin: 0 auto;
+        width: fit-content;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .p1 {
+        padding: 10px 0;
+        float: none;
+    }
+
+    .part1 {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .part1 img {
+        width: 80%;
+        padding: 20px 0;
+    }
+
+    .para3 {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .part3 {
+        padding: 40px 20px;
+    }
+
+    .set1,
+    .set2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .set1 img,
+    .set2 img {
+        margin-bottom: 20px;
+        width: 90%;
+        height: auto;
+    }
+
+    .part5 {
+        padding: 30px 20px;
+    }
+
+    .part6 .para {
+        padding: 30px 20px;
+        width: 90%;
+    }
+
+    .profile img {
+        width: 80px;
+    }
+
+    .endpart {
+        padding: 20px 10px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1, h2 {
+        font-size: 20px;
+    }
+
+    .part1 h2 {
+        font-size: 24px;
+    }
+
+    .part1 button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .part5 button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .endpart i {
+        font-size: 20px;
+        margin: 5px;
+    }
+}
+
+
+
+
+
+
+

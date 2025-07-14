@@ -1,0 +1,75 @@
+body{
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('pexels-darina-belonogova-8004107.jpg') no-repeat center center fixed;
+  background-size: cover;
+   
+}
+
+
+header{
+    background-color: green;
+    align-items: center;
+    padding-left: 80px;
+    height: 80px;
+    display:flex;
+    gap: 100px;
+    color: white;
+   
+}
+ label{
+  cursor: pointer;
+  
+}
+.img{
+width: 1000px;
+  height: 750px;
+}
+ 
+.dropdown-content{
+  padding-left: 20px;
+  padding-right: 20px;
+  top: 82px;
+  border-radius: 5px;
+  display: none;
+  position: absolute;
+  z-index: 8;
+}
+.dropdown:hover .dropdown-content{
+  background-color: green;
+  display: block;
+  width:px ;
+ margin-top: -9px;
+
+
+}
+h4{
+  text-decoration-line: underline;
+   text-decoration: dashed;
+   border-bottom: 2px;
+   
+  
+}
+header{
+  position: relative;
+}
+.dropdown-sub-content{
+  background-color: green ;
+  padding-right: 20px;
+  width: 100px;
+  height: 230px;
+  padding-left: 50px;
+  margin-left: 171px;
+  display: none;
+  position: absolute;
+  border-radius: 5px;
+  
+}
+
+.dropdown-sub:hover .dropdown-sub-content{
+  display: block;
+  background-color: green;
+  margin-top: -10px;
+  margin-left: 140px;
+
+}

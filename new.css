@@ -1,0 +1,69 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.hero {
+  background: #ccc;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 15px;
+  background: coral;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.about, .testimonial, .services, .contact {
+  padding: 20px;
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.services div {
+  background: #f9f9f9;
+  padding: 15px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+  margin: auto;
+}
+
+input, textarea {
+  padding: 10px;
+  width: 100%;
+}
+
+footer {
+  background: #eee;
+  text-align: center;
+  padding: 10px;
+}

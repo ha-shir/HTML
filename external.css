@@ -1,0 +1,35 @@
+.main{
+    background-image: url(pic.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+    height: 700px;
+    padding: auto;
+}
+.h2{
+    text-align:center;
+    padding-top: 150px;
+    padding-right: 950px;
+    color: cadetblue;
+   
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.f{
+    display: flex;
+    gap: 40px;
+
+}
+.h{
+    display: flex;
+    gap: 15px; ;
+}
+.B{
+    color: cadetblue;
+}
+.font{
+    color: cadetblue;
+}
